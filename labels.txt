@@ -1,0 +1,15 @@
+Abuse
+Arrest
+Arson
+Assault
+Burglary
+Explosion
+Fight
+HockeyFight
+MovieFights
+Normal
+RoadAccidents
+Robbery
+Shooting
+Shoplifting
+Vandalism
