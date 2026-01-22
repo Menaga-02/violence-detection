@@ -51,5 +51,6 @@ for cls in ["violence", "non_violence"]:
 
     print(f"{cls.capitalize():14}: {count}")
 
-print(f"\nTotal Test Videos  : {total_test}")
+print(f"\nTotal Train Videos  : {total_test}")
 print("\n✅ Counting completed")
+
