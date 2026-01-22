@@ -1,32 +1,20 @@
 Real-Time Violence Detection Using Deep Learning
 Project Overview
-
 This project presents a real-time violence detection system based on deep learning and computer vision techniques. The system analyzes surveillance videos and live camera feeds to automatically classify scenes as Violence or Non-Violence. The objective is to reduce manual monitoring effort and improve response time in security and surveillance environments.
-
 The proposed system employs transfer learning using the MobileNetV2 architecture with a custom binary classifier, ensuring both high accuracy and computational efficiency. The model is suitable for real-time deployment on CPU-based systems.
 
 Features
-
 Binary classification of violent and non-violent activities
-
 Real-time violence detection using webcam input
-
 Violence detection from recorded video files
-
 Lightweight CNN architecture optimized for real-time performance
-
 Probability threshold tuning to reduce false positives
-
 Standard evaluation using classification metrics
 
 Datasets Used
-
 The dataset used in this project is a custom-curated dataset constructed from the following publicly available datasets:
-
 XD Violence Dataset
-
 UCF-Crime Dataset
-
 Hockey Fight Dataset
 
 The original multi-class datasets are converted into a binary classification problem by grouping all violent activities under the Violence class and normal activities under the Non-Violence class. The dataset is split into training and testing sets using an 80:20 ratio before frame extraction to avoid data leakage.
@@ -99,13 +87,9 @@ Model Evaluation
 The trained model is evaluated using unseen test data. The evaluation scripts compute the following metrics:
 
 Accuracy
-
 Precision
-
 Recall
-
 F1-score
-
 Confusion Matrix
 
 Run the evaluation using:
